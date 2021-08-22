@@ -1,0 +1,208 @@
+ body{
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    
+   
+}
+hr{
+    color: gray;
+    opacity: .2;
+}
+p{
+    color: gray;
+}
+
+/* =======================header======================== */
+
+
+
+
+
+/* ==============================global======================== */
+
+
+
+.body{
+    padding: 25% 0 0 10%;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
+.bod{
+    padding: 1% 0 0 14%;
+}
+.btn{
+    background: red;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    padding: 12px;
+    margin: 4px;
+    color: white;
+   
+}
+.btn:hover{
+    border: solid white;
+}
+
+
+/* ==============================xx==============global===========xx======================= */
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.sign{
+    display: flex;
+
+}
+.link-total{
+    display: flex;
+    justify-content: center;
+    margin-left: 25rem;  
+}
+.link-list:hover{
+background-color: white;
+color: black;
+border-radius: 3px;
+border-width: 2px;
+}
+
+.link:hover{
+    color: black;
+  
+}
+.title{
+    position: absolute; 
+    top: 5px;
+    left: 5%;
+    font-size: 30px; 
+    color: white;
+    font-family: cursive;
+}
+.link {
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+.lin:hover{
+    color: wheat;
+}
+.lin{
+    padding: 2px;
+    font-size: 20px;
+    margin: 0 5px 0 0;
+}
+
+
+main .site-background{
+    background-image: url('vegetables-set-left-black-slate.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* position: absolute; */
+    width:100%;
+
+}
+
+/* ============================xx================header=====================xx================= */
+
+/* =============================================================content================================= */
+section.content{
+    margin: 15px;
+}
+.grid{
+    display: flex;
+   gap: 1rem;
+   margin: 10px;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+ h3{
+    text-align: center;
+}
+div p{
+    text-align: center;
+}
+
+ .post{
+   max-width: 25rem;
+   width:100%;
+   max-height:auto;
+   height: 15rem;
+   border-radius: 10px;
+   
+}
+/* ==============================xx===============================content============================xx===== */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++amenities++++++++++++++++++++++++++++++++++++++++++ */
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+ .icons{
+     border-radius: 100%;
+     padding: 15px;
+     border: 2px solid black;
+ }
+
+/* ++++++++++++++++==+++++++++++++++++++++++++++++++amenities+++++++++++++++++++==+++++++++++++++++++++++ */
+
+/* ===========================================about us======================================= */
+.flex{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+ .save{
+    max-width: 30rem;
+    width:100%;
+    max-height:auto;
+    height: 20rem;
+    border-radius: 10px;
+    margin-top: 60px;
+   
+ }
+ .pad{
+     padding-right: 100px;
+     padding-left: 100px;
+ }
+
+/* ==================xx =========================about us===================xx==================== */
+
+/* <!-- ==========================================================gallery================================================== --> */
+
+.picture{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pot{
+    max-width: 27rem;
+    width:100%;
+    max-height:auto;
+    height: 15rem;
+    border-radius: 10px;
+ }
+
+/* <!-- ===========================================xx===============gallery=====================xx============================= --> */
